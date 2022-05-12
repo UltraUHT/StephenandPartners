@@ -4,8 +4,8 @@ import Link from "next/link";
 
 function Difference() {
   return (
-    <div className="px-4 2xl:px-0 md:px-20 py-[70px] -mt-[200px] xl:-mt-[90px] bg-[#282626] text-[14px] flex items-center justify-center">
-      <div className="max-w-[1080px] 2xl:max-w-[1280px] w-full ">
+    <div className="px-4 2xl:px-0 md:px-20 py-[70px] bg-[#282626] text-[14px] flex items-center justify-center">
+      <div className="max-w-[1080px] 2xl:max-w-[1280px] w-full">
         <h2
           data-aos="fade-down"
           data-aos-duration="2000"

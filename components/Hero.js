@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="h-screen w-screen max-h-screen overflow-hidden">
-      <div>
+    <div className="h-screen w-screen relative -mt-16">
+      <div className="w-full h-full">
         <Image
           data-aos="slide-down"
           data-aos-duration="2000"
@@ -13,11 +13,12 @@ function Hero() {
           alt="charcoal bricket product image"
           layout="fill"
         ></Image>
+        <div className="absolute bg-black bg-opacity-40 w-full h-full" />
       </div>
       <div
         data-aos="fade"
         data-aos-duration="2000"
-        className="absolute h-full w-full flex flex-col items-center justify-center -mt-16 px-4 text-center bg-black bg-opacity-40"
+        className="absolute top-0 h-screen w-screen flex flex-col items-center justify-center px-4 text-center"
       >
         <h1 className="text-white text-6xl xl:text-[80px] pt-10">
           STEPHEN & PARTNERS
