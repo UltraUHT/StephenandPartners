@@ -68,7 +68,9 @@ const Sidebar = ({ isOpen, toggle, route }) => {
               <Link href="/services" passHref>
                 <a
                   className={`block py-3 px-5 ${
-                    route === "/services" ? "font-black" : " font-extralight"
+                    route === "/services" || route > "/services"
+                      ? "font-black"
+                      : " font-extralight"
                   }`}
                 >
                   Services
