@@ -74,13 +74,17 @@ const Navbar = ({ toggle, route }) => {
               data-aos="fade-up"
               data-aos-duration="2400"
               className={`hover:opacity-100 opacity-40 flex flex-col items-center gap-2 ${
-                route === "/services" ? "font-bold opacity-100" : null
+                route === "/services" || route > "/services"
+                  ? "font-bold opacity-100"
+                  : null
               }`}
             >
               Services
               <div
                 className={`bg-white w-2 h-2 rounded-full ${
-                  route === "/services" ? "opacity-100" : "opacity-0"
+                  route === "/services" || route > "/services"
+                    ? "opacity-100"
+                    : "opacity-0"
                 }`}
               />
             </a>

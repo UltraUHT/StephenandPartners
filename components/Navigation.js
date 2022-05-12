@@ -9,6 +9,7 @@ const Navigation = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div className="overflow-hidden">
       <Navbar toggle={toggle} route={router.pathname} />
