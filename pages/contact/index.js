@@ -40,9 +40,8 @@ export default function Contact() {
               <p>
                 <a
                   href="https://wa.me/081331563244"
-                  noref="true"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                 >
                   +62 813 3156 3244
                 </a>
@@ -55,9 +54,8 @@ export default function Contact() {
               <p>
                 <a
                   href="mailto:stephen20@yehezkialaw.com"
-                  noref="true"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                 >
                   stephen20@yehezkialaw.com
                 </a>

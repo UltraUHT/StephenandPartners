@@ -21,8 +21,8 @@ function Footer() {
               <p className=" xl:text-[18px]">
                 <a
                   href="https://wa.me/081331563244"
-                  noref="true"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   +62 813 3156 3244
                 </a>
@@ -35,8 +35,8 @@ function Footer() {
               <p className=" xl:text-[18px]">
                 <a
                   href="mailto:stephen20@yehezkialaw.com"
-                  noref="true"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   stephen20@yehezkialaw.com
                 </a>
