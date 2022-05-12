@@ -54,13 +54,13 @@ export default function HumanCapital() {
               <div className="xl:flex w-full">
                 <h3 className="pb-4 text-[24px] xl:w-1/2">Executive Search</h3>
                 <p className="text-[14px] leading-relaxed xl:w-1/2">
-                  We provide great quality and growth of executive search
+                  {` We provide great quality and growth of executive search
                   services by attracting the high caliber candidate that fulfill
                   client organization’s needs. Supported by seasoned
                   professionals with strong expertise in recruitment. We take
                   time to make thorough candidate evaluation to ensure their
                   suitability to our client’s company culture, values, and
-                  vision.
+                  vision.`}
                 </p>
               </div>
             </div>
@@ -86,12 +86,12 @@ export default function HumanCapital() {
                   Organization Development Program
                 </h3>
                 <p className="text-[14px] leading-relaxed xl:w-1/2">
-                  We believe that talent development will enables continuous
+                  {`We believe that talent development will enables continuous
                   performance improvement, increases employee engagement, and
                   improves retention. Better performance over longer periods of
                   time. We provide high quality development programs customized
-                  to client’s needs to boost the individual development and
-                  organization capability.
+                  to client's needs to boost the individual development and
+                  organization capability.`}
                 </p>
               </div>
             </div>
@@ -99,12 +99,12 @@ export default function HumanCapital() {
               <div className="xl:flex w-full">
                 <h3 className="pb-4 text-[24px] xl:w-1/2">Talent Management</h3>
                 <p className="text-[14px] leading-relaxed xl:w-1/2">
-                  We believe that One of the keys to the success of a company to
+                  {` We believe that One of the keys to the success of a company to
                   survive and thrive in a competitive business situation today
                   and in the future, is the ability to identify, retain and
                   develop its best talents to be able to occupy key and
                   strategic positions and support the achievement of the
-                  company's goals, mission and vision.
+                  company's goals, mission and vision.`}
                 </p>
               </div>
             </div>
@@ -129,9 +129,9 @@ export default function HumanCapital() {
                   Performance Management
                 </h3>
                 <p className="text-[14px] leading-relaxed xl:w-1/2">
-                  We believe that if Performance Management is managed properly,
+                  {`We believe that if Performance Management is managed properly,
                   consistently, effectively and efficiently, the organization's
-                  achievement will be on target and with maximum results.
+                  achievement will be on target and with maximum results.`}
                 </p>
               </div>
             </div>

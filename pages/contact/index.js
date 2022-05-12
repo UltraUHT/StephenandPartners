@@ -42,6 +42,7 @@ export default function Contact() {
                   href="https://wa.me/081331563244"
                   noref="true"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   +62 813 3156 3244
                 </a>
@@ -56,6 +57,7 @@ export default function Contact() {
                   href="mailto:stephen20@yehezkialaw.com"
                   noref="true"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   stephen20@yehezkialaw.com
                 </a>
