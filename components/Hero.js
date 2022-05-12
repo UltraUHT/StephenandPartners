@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="h-screen w-screen overflow-hidden">
+    <div className="h-screen w-screen max-h-screen overflow-hidden">
       <div>
         <Image
           data-aos="slide-down"
